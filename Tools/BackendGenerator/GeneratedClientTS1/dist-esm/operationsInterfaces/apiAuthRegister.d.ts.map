@@ -1,0 +1,1 @@
+{"version":3,"file":"apiAuthRegister.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/apiAuthRegister.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iCAAiC,EAAE,MAAM,WAAW,CAAC;AAE9D,gDAAgD;AAChD,MAAM,WAAW,eAAe;IAC9B,6CAA6C;IAC7C,IAAI,CAAC,OAAO,CAAC,EAAE,iCAAiC,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CAClE"}

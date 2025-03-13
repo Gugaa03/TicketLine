@@ -1,0 +1,1 @@
+{"version":3,"file":"enableEvent.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/enableEvent.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,6BAA6B,EAAE,MAAM,WAAW,CAAC;AAE1D,4CAA4C;AAC5C,MAAM,WAAW,WAAW;IAC1B,6CAA6C;IAC7C,IAAI,CAAC,OAAO,CAAC,EAAE,6BAA6B,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CAC9D"}

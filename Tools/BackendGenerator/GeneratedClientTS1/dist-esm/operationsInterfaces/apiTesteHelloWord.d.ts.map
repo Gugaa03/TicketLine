@@ -1,0 +1,1 @@
+{"version":3,"file":"apiTesteHelloWord.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/apiTesteHelloWord.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kCAAkC,EAAE,MAAM,WAAW,CAAC;AAE/D,kDAAkD;AAClD,MAAM,WAAW,iBAAiB;IAChC,6CAA6C;IAC7C,GAAG,CAAC,OAAO,CAAC,EAAE,kCAAkC,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CAClE"}

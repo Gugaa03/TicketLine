@@ -1,0 +1,1 @@
+{"version":3,"file":"apiAuthLogout.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/apiAuthLogout.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,+BAA+B,EAAE,MAAM,WAAW,CAAC;AAE5D,8CAA8C;AAC9C,MAAM,WAAW,aAAa;IAC5B,6CAA6C;IAC7C,IAAI,CAAC,OAAO,CAAC,EAAE,+BAA+B,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CAChE"}

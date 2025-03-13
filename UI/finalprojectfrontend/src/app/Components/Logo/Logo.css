@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* Ajuste conforme necessário */
+    background-color: #f0f0f0; /* Cor de fundo do cabeçalho */
+    border-bottom: 1px solid #ccc; /* Borda inferior */
+  }
+  
+  header img {
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+  }
+  

@@ -1,0 +1,1 @@
+{"version":3,"file":"apiAuthLogin.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/apiAuthLogin.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,8BAA8B,EAAE,MAAM,WAAW,CAAC;AAE3D,6CAA6C;AAC7C,MAAM,WAAW,YAAY;IAC3B,6CAA6C;IAC7C,IAAI,CAAC,OAAO,CAAC,EAAE,8BAA8B,GAAG,OAAO,CAAC,IAAI,CAAC,CAAC;CAC/D"}

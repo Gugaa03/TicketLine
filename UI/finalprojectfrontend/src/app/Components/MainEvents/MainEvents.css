@@ -1,0 +1,88 @@
+/* styles/MainEvents.css */
+
+.mainevents-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mainevents-container-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.event-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card a {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.event-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-image {
+  flex: 1;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.event-details {
+  flex: 1;
+}
+.event-line {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.event-details .event-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.event-details .event-description {
+  font-size: 18px;
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.event-location,
+.event-dates,
+.event-type,
+.event-capacity {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.event-type {
+  margin: 0 20px;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #0070f3;
+  border-radius: 20px;
+}

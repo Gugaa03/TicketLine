@@ -1,0 +1,1 @@
+{"version":3,"file":"apiAuthDeleteName.d.ts","sourceRoot":"","sources":["../../src/operationsInterfaces/apiAuthDeleteName.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qCAAqC,EAAE,MAAM,WAAW,CAAC;AAElE,kDAAkD;AAClD,MAAM,WAAW,iBAAiB;IAChC;;;OAGG;IACH,MAAM,CACJ,IAAI,EAAE,MAAM,EACZ,OAAO,CAAC,EAAE,qCAAqC,GAC9C,OAAO,CAAC,IAAI,CAAC,CAAC;CAClB"}

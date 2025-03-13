@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.blop {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(176, 176, 176, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: 0 5px;
+}
+
+.button-primary {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  display: inline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.header--center {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+
+.header--center .logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+}
+
+.logo-container img {
+  height: 50px;
+  width: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.user-info {
+  align-items: center;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  text-align: center;
+}
+
+.user-info__text {
+  font-size: 1rem;
+}
+
+.user-info p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(176, 176, 176, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.screen-home {
+  height: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(176, 176, 176, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.wrapper {
+  width: 420px;
+  background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  color: #000;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper-70 {
+  width: 70%;
+  background-color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  color: #000;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.search {
+  position: relative;
+  margin: 20px;
+}
+
+.search-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-events {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.search-events.visible {
+  display: block;
+}
+
+.search-events div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.search-events div:hover {
+  background-color: #f0f0f0;
+}
