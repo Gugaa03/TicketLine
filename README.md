@@ -1,4 +1,4 @@
-# Gustavo Projeto 2024 - Parte 2
+# Gustavo Projeto 2024 (15 valores)
 
 Este projeto é composto por duas partes principais: Backend e Frontend. Siga as instruções abaixo para configurar e executar o projeto.
 
