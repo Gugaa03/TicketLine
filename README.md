@@ -1,6 +1,6 @@
 # 🎟️ Bilheteira Online – Projeto Final de Curso
 
-> **Disciplina:** Desenvolvimento de Aplicações Web
+> **Disciplina:** Laboratório de Projeto Final
 > **Aluno:** Gustavo
 > **Ano:** 2024
 > **Nota:** 15 valores
