@@ -1,48 +1,71 @@
-# Gustavo Projeto 2024 (15 valores)
+# 🎟️ Bilheteira Online – Projeto Final de Curso
 
-Este projeto é composto por duas partes principais: Backend e Frontend. Siga as instruções abaixo para configurar e executar o projeto.
+> **Disciplina:** Desenvolvimento de Aplicações Web
+> **Aluno:** Gustavo
+> **Ano:** 2024
+> **Nota:** 15 valores
 
-## Backend
+---
 
-1. No console de gerenciamento de pacotes Nugget, execute o seguinte comando para atualizar o banco de dados:
+## 📄 Descrição
+
+Este projeto consiste numa aplicação web de bilheteira online, desenvolvida para o projeto final de curso, com as seguintes funcionalidades:
+
+* **Frontend:** Interface de utilizador para compra de bilhetes.
+* **Backend:** API para gestão de utilizadores e bilhetes.
+
+---
+
+## 🧩 Estrutura do Repositório
+
+```
+/FinalProjectBackend       # Backend da aplicação
+/Tools                     # Ferramentas auxiliares
+/UI                        # Interface de utilizador
+.gitignore                # Ignora ficheiros desnecessários
+package-lock.json         # Dependências do Node.js
+README.md                 # Este ficheiro
+```
+
+---
+
+## ⚙️ Como Executar
+
+### Backend
+
+1. Abra o **Console de Gerenciamento de Pacotes NuGet**.
+2. Execute o comando para atualizar o banco de dados:
+
+   ```bash
    update-database
-
-2. Após a migração ser concluída, inicie o programa.
-
-3. Caso queira criar um utilizador, utilize os comandos apropriados no console de gerenciamento de pacotes.
-
-## Frontend
-
-1. Abra o terminal e navegue até a pasta `caminho/Tools/BackendGenerator/GeneratedClientTS1` e execute:
-
-   ```sh
-   npm install
    ```
+3. Após a migração ser concluída, inicie o programa.
+4. Para criar um utilizador, utilize os comandos apropriados no console de gerenciamento de pacotes.
 
-2. Em seguida, navegue até a pasta `caminho/UI/finalprojectfrontend` e execute:
+### Frontend
 
-   ```sh
-   npm install
-   ```
+1. Abra o terminal e navegue até a pasta `caminho/Tools/BackendGenerator/Genera`.
+2. Execute o comando para iniciar o servidor de desenvolvimento:
 
-3. Após a instalação das dependências, construa o projeto executando:
-
-   ```sh
-   npm run build
-   ```
-
-4. Quando a construção for concluída, inicie o servidor de desenvolvimento com:
-   ```sh
+   ```bash
    npm run dev
    ```
+3. Acesse a aplicação em `http://localhost:3000`.
 
-## Observações
+---
 
-- Certifique-se de ter todas as dependências necessárias instaladas, como Node.js e o .NET SDK.
-- Siga os passos na ordem indicada para evitar problemas durante a configuração.
+## 🛠️ Ferramentas Utilizadas
 
-## Contato
+* **Backend:** ASP.NET Core
+* **Frontend:** Ferramentas auxiliares para geração de código
+* **Banco de Dados:** Entity Framework
 
-Para mais informações ou suporte, entre em contato com o desenvolvedor.
+---
+
+## ✅ Status do Projeto
+
+* Backend: ✅ Funcional
+* Frontend: ✅ Funcional
+* Documentação: ✅ Completa
 
 ---
