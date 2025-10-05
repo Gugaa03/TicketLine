@@ -85,7 +85,7 @@ namespace FinalProjectBackend.Data
                 new Event
                 {
                     Id = 4,
-                    Name = "Almoço com a Luisa Maia",
+                    Name = "Almoço",
                     Description = "Venha com seus melhores amigos almoçar com a melhor companhia",
                     Type = "Diversão",
                     StartDate = DateTime.Now,
